@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.ceenic.sidenavigation.SideNavigationLayout
+        android:id="@+id/side_nav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="250dp"
+            android:layout_height="match_parent" />
+
+        <ListView
+            android:id="@+id/list2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/black" />
+    </com.ceenic.sidenavigation.SideNavigationLayout>
+
+</RelativeLayout>

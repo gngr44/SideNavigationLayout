@@ -1,0 +1,3 @@
+A custom FrameLayout that copies the side navigation UI design pattern found
+in the YouTube app. It expects two child views to be added to it. The first
+one will be the navigation view and the second one will be the content view.
